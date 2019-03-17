@@ -1,18 +1,18 @@
 import os
 clear = os.system("clear")
 clear
-# Give the user some context.
-print("\nWelcome to the nature center. What would you like to do?")
 
-# Set an initial value for choice other than the value for 'quit'.
+print("\nSimple Menu TEXT")
+
+
 choice = ''
 
-# Start a loop that runs until the user enters the value for 'quit'.
+
 while choice != 'q':
     # Give all the choices in a series of print statements.
-    print("\n[1] Enter 1 to take a bicycle ride.")
-    print("[2] Enter 2 to go for a run.")
-    print("[3] Enter 3 to climb a mountain.")
+    print("\n[1] HTML")
+    print("[2] PHP")
+    print("[3] Python")
     print("[q] Enter q to quit.")
     
     # Ask for the user's choice.
@@ -20,19 +20,19 @@ while choice != 'q':
     
     # Respond to the user's choice.
     if choice == '1':
-        print("\nHere's a bicycle. Have fun!\n")
+        print("\nHTML is FUN\n")
         clear
     elif choice == '2':
-        print("\nHere are some running shoes. Run fast!\n")
+        print("\nHere we go Mark Zuckerberg\n")
         clear
     elif choice == '3':
-        print("\nHere's a map. Can you leave a trip plan for us?\n")
+        print("\nIs not a Snake \n")
         clear
     elif choice == 'q':
-        print("\nThanks for playing. See you later.\n")
+        print("\nThanks You. ... Have nice day.\n")
         clear
     else:
-        print("\nI don't understand that choice, please try again.\n")
+        print("\nSorry i think you wrong selected.\n")
         clear
         
 # Print a message that we are all finished.
